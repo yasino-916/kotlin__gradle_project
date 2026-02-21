@@ -126,5 +126,9 @@ If stuck:
 4. Ask questions in group
 
 
+---
+# submission instruction
 
-
+- Fork the Repository
+- Clone and Work on the Code
+- Commit Your Changes and Push to Your Fork
