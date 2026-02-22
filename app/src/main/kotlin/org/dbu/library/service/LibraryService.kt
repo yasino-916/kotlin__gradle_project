@@ -1,6 +1,7 @@
 package org.dbu.library.service
 
 import org.dbu.library.model.Book
+import org.dbu.library.model.Patron
 
 interface LibraryService {
 
@@ -11,4 +12,6 @@ interface LibraryService {
     fun returnBook(patronId: String, isbn: String): Boolean
 
     fun search(query: String): List<Book>
+    fun findBook(isbn: String): Book?
+    fun getAllPatrons(): List<Patron>
 }

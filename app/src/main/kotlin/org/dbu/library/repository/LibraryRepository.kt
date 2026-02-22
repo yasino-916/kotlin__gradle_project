@@ -14,4 +14,5 @@ interface LibraryRepository {
     fun updatePatron(patron: Patron)
 
     fun getAllBooks(): List<Book>
+    fun getAllPatrons(): List<Patron>
 }

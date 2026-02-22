@@ -11,6 +11,7 @@ fun showMenu(): String {
         | 4 | Return Book
         | 5 | Search
         | 6 | List All Books
+        | 7 | View All Patrons
         | 0 | Exit
         |==============================================
         | Enter option:
